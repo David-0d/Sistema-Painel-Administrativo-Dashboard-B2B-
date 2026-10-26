@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise OS | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-layout">
+        <aside class="sidebar">
+            <div class="brand">NEXUS.B2B</div>
+            <nav>
+                <a href="#" class="active">Visão Geral</a>
+                <a href="#">Clientes</a>
+                <a href="#" onclick="gerarRelatorio()">Relatórios</a>
+            </nav>
+        </aside>
+        
+        <main class="main-content">
+            <header class="topbar">
+                <h3>Analytics Executivo</h3>
+                <div class="user-profile">Admin</div>
+            </header>
+            
+            <section class="metrics-grid">
+                <div class="glass-metric-card">
+                    <span>Faturamento Mensal</span>
+                    <h2>R$ 45.300</h2>
+                    <span class="trend positive">+14.2% este mês</span>
+                </div>
+                <div class="glass-metric-card">
+                    <span>Novos Contatos B2B</span>
+                    <h2>+128</h2>
+                    <span class="trend positive">+5.1% vs ontem</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
